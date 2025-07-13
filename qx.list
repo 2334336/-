@@ -1,2 +1,17 @@
 DOMAIN,hcyykj-eos-hhht5-01.eos.huhehaote-8.cmecloud.cn,reject
 DOMAIN-SUFFIX,ctyunxs.cn,reject
+DOMAIN-SUFFIX, oscp.apple.com, REJECT-DNS
+DOMAIN-SUFFIX, oscp2.appe.com, REJECT-DNS  # 注意：该域名可能拼写错误，应为oscp2.apple.com
+DOMAIN-SUFFIX, certs.apple.com, REJECT-DNS
+DOMAIN-SUFFIX, crl.apple.com, REJECT-DNS
+DOMAIN-SUFFIX, crl.entrust.net, REJECT-DNS
+DOMAIN-SUFFIX, crl3.digicert.com, REJECT-DNS
+DOMAIN-SUFFIX, crl4.digicert.com, REJECT-DNS
+DOMAIN-SUFFIX, ocsp.apple.com, REJECT-DNS
+DOMAIN-SUFFIX, ocsp.digicert.cn, REJECT-DNS
+DOMAIN-SUFFIX, ocsp.digicert.com, REJECT-DNS
+DOMAIN-SUFFIX, ocsp.entrust.net, REJECT-DNS
+DOMAIN-SUFFIX, ocsp2.apple.com, REJECT-DNS
+DOMAIN-SUFFIX, valid.apple.com, REJECT-DNS
+DOMAIN-SUFFIX, ppq.apple.com, REJECT-DNS
+DOMAIN-SUFFIX, ppq-ext.v.aaplimg.com, REJECT-DNS
