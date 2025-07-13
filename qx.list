@@ -3,18 +3,18 @@ DOMAIN, hcyykj-eos-hhht5-01.eos.huhehaote-8.cmecloud.cn, REJECT
 DOMAIN-SUFFIX, ctyunxs.cn,reject
 
 # 苹果及证书相关域名屏蔽（原REJECT-DNS改为REJECT）
-DOMAIN-SUFFIX, oscp.apple.com, REJECT
-DOMAIN-SUFFIX, oscp2.appe.com, REJECT
-DOMAIN-SUFFIX, certs.apple.com, REJECT
-DOMAIN-SUFFIX, crl.apple.com, REJECT
-DOMAIN-SUFFIX, crl.entrust.net, REJECT
-DOMAIN-SUFFIX, crl3.digicert.com, REJECT
-DOMAIN-SUFFIX, crl4.digicert.com, REJECT
-DOMAIN-SUFFIX, ocsp.apple.com, REJECT
-DOMAIN-SUFFIX, ocsp.digicert.cn, REJECT
-DOMAIN-SUFFIX, ocsp.digicert.com, REJECT
-DOMAIN-SUFFIX, ocsp.entrust.net, REJECT
-DOMAIN-SUFFIX, ocsp2.apple.com, REJECT
-DOMAIN-SUFFIX, valid.apple.com, REJECT
-DOMAIN-SUFFIX, ppq.apple.com, REJECT
-DOMAIN-SUFFIX, ppq-ext.v.aaplimg.com, REJECT
+HOST,oscp.apple.com,REJECT
+
+HOST,oscp2.appe.com,REJECT
+
+HOST,valid.apple.com,REJECT
+
+HOST,crl.apple.com,REJECT
+
+HOST,crl.entrust.net,REJECT
+
+HOST,certs.apple.com,REJECT
+
+HOST,appattest.apple.com,REJECT
+
+HOST,vpp.itunes.apple.com,REJECT
