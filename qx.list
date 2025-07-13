@@ -1,17 +1,19 @@
-DOMAIN,hcyykj-eos-hhht5-01.eos.huhehaote-8.cmecloud.cn,reject
-DOMAIN-SUFFIX,ctyunxs.cn,reject
-DOMAIN-SUFFIX, oscp.apple.com, REJECT-DNS
-DOMAIN-SUFFIX, oscp2.appe.com, REJECT-DNS  # 注意：该域名可能拼写错误，应为oscp2.apple.com
-DOMAIN-SUFFIX, certs.apple.com, REJECT-DNS
-DOMAIN-SUFFIX, crl.apple.com, REJECT-DNS
-DOMAIN-SUFFIX, crl.entrust.net, REJECT-DNS
-DOMAIN-SUFFIX, crl3.digicert.com, REJECT-DNS
-DOMAIN-SUFFIX, crl4.digicert.com, REJECT-DNS
-DOMAIN-SUFFIX, ocsp.apple.com, REJECT-DNS
-DOMAIN-SUFFIX, ocsp.digicert.cn, REJECT-DNS
-DOMAIN-SUFFIX, ocsp.digicert.com, REJECT-DNS
-DOMAIN-SUFFIX, ocsp.entrust.net, REJECT-DNS
-DOMAIN-SUFFIX, ocsp2.apple.com, REJECT-DNS
-DOMAIN-SUFFIX, valid.apple.com, REJECT-DNS
-DOMAIN-SUFFIX, ppq.apple.com, REJECT-DNS
-DOMAIN-SUFFIX, ppq-ext.v.aaplimg.com, REJECT-DNS
+# 保留原有的单域名屏蔽规则（已为REJECT）
+DOMAIN, hcyykj-eos-hhht5-01.eos.huhehaote-8.cmecloud.cn, REJECT
+
+# 苹果及证书相关域名屏蔽（原REJECT-DNS改为REJECT）
+DOMAIN-SUFFIX, oscp.apple.com, REJECT
+DOMAIN-SUFFIX, oscp2.appe.com, REJECT  # 注意：该域名可能存在拼写错误，建议修正为 oscp2.apple.com
+DOMAIN-SUFFIX, certs.apple.com, REJECT
+DOMAIN-SUFFIX, crl.apple.com, REJECT
+DOMAIN-SUFFIX, crl.entrust.net, REJECT
+DOMAIN-SUFFIX, crl3.digicert.com, REJECT
+DOMAIN-SUFFIX, crl4.digicert.com, REJECT
+DOMAIN-SUFFIX, ocsp.apple.com, REJECT
+DOMAIN-SUFFIX, ocsp.digicert.cn, REJECT
+DOMAIN-SUFFIX, ocsp.digicert.com, REJECT
+DOMAIN-SUFFIX, ocsp.entrust.net, REJECT
+DOMAIN-SUFFIX, ocsp2.apple.com, REJECT
+DOMAIN-SUFFIX, valid.apple.com, REJECT
+DOMAIN-SUFFIX, ppq.apple.com, REJECT
+DOMAIN-SUFFIX, ppq-ext.v.aaplimg.com, REJECT
