@@ -1,20 +1,21 @@
-# 保留原有的单域名屏蔽规则（已为REJECT）
+# nb助手去广告
 DOMAIN, hcyykj-eos-hhht5-01.eos.huhehaote-8.cmecloud.cn, REJECT
 DOMAIN-SUFFIX, ctyunxs.cn,reject
 
-# 苹果及证书相关域名屏蔽（原REJECT-DNS改为REJECT）
-HOST,oscp.apple.com,REJECT
-
-HOST,oscp2.appe.com,REJECT
-
-HOST,valid.apple.com,REJECT
-
-HOST,crl.apple.com,REJECT
-
-HOST,crl.entrust.net,REJECT
-
-HOST,certs.apple.com,REJECT
-
-HOST,appattest.apple.com,REJECT
-
-HOST,vpp.itunes.apple.com,REJECT
+#番茄小说
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,zijieapi.com,REJECT,app=com.dragon.read
+DOMAIN-SUFFIX,frontier-toutiao.snssdk.com,REJECT,app=com.dragon.read
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN-SUFFIX,ads5-normal-lf.zijieapi.com,REJECT,app=com.dragon.read
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,112.28.245.186:443,ALLOW,app=cn.kuwo.player
+DOMAIN-SUFFIX,120.221.180.167:443,ALLOW,app=cn.kuwo.player
+DOMAIN-SUFFIX,120.221.179.155:443,ALLOW,app=cn.kuwo.player
+DOMAIN-SUFFIX,112.28.245.184:443,ALLOW,app=cn.kuwo.player
+DOMAIN-SUFFIX,120.221.180.94:443,ALLOW,app=cn.kuwo.player
+DOMAIN-SUFFIX,api3-norma,REJECT
+DOMAIN-SUFFIX,v5-hl-hw-reading-video.fqnovelvod.com,REJECT,app=com.dragon.read
+DOMAIN-SUFFIX,frontier100-toutiao-hl.fqnovel.com,REJECT,app=com.dragon.read
+DOMAIN-SUFFIX,v5-reading-video.fqnovelvod.com,REJECT,app=com.dragon.read
+DOMAIN-SUFFIX,v11-reading-video.fqnovelvod.com,REJECT,app=com.dragon.read
